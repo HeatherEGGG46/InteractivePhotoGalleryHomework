@@ -3,7 +3,6 @@ function addIndex(previewPic){
    document.getElementById('image').innerHTML = alt;
     console.log(images.length);
     for(let i =0;i<images.length;i++){
-        console.log("image " + i);
         images[i].setAttribute("tabindex", "0");
     }  
 }
@@ -20,4 +19,5 @@ function upDate(previewPic){
    previewPic.style.backgroundImage = "url('')";
     document.getElementById('image').innerHTML = "Hover over an image below to display here";
       console.log('unDo event triggered!');
+
 
